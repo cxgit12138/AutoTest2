@@ -1,0 +1,3 @@
+INFO     common.logger:request_util.py:13 请求: POST http://127.0.0.1/api/mgr/signin
+INFO     common.logger:assert_util.py:44 断言通过: JSON中存在键 ret
+INFO     common.logger:assert_util.py:11 断言通过: 0 == 0

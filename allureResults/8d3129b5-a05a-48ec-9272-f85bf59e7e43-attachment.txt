@@ -1,0 +1,5 @@
+2025-08-08 15:18:17,063 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,067 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,068 - common.logger - INFO - 断言通过: 1 == 1
+2025-08-08 15:18:17,068 - common.logger - INFO - 断言通过: JSON中存在键 msg
+2025-08-08 15:18:17,068 - common.logger - INFO - 断言通过: 用户名或者密码错误 == 用户名或者密码错误

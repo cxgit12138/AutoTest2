@@ -1,0 +1,47 @@
+2025-08-08 15:16:01,231 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:16:03,261 - common.logger - ERROR - 请求异常: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /api/mgr/signin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1AF578350>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-08 15:16:03,617 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:16:05,642 - common.logger - ERROR - 请求异常: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /api/mgr/signin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1AF8681A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-08 15:16:05,780 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:16:07,801 - common.logger - ERROR - 请求异常: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /api/mgr/signin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1AF869E50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-08 15:16:07,941 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:16:09,951 - common.logger - ERROR - 请求异常: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /api/mgr/signin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1AF868770>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-08 15:16:10,125 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:16:12,150 - common.logger - ERROR - 请求异常: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /api/mgr/signin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1AF7845F0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-08 15:16:12,290 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:16:14,333 - common.logger - ERROR - 请求异常: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /api/mgr/signin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1AF786F00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-08 15:16:14,475 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:16:16,515 - common.logger - ERROR - 请求异常: HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /api/mgr/signin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B1AF7A4110>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2025-08-08 15:18:16,996 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,021 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,021 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-08 15:18:17,027 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,057 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,057 - common.logger - INFO - 断言通过: 1 == 1
+2025-08-08 15:18:17,057 - common.logger - INFO - 断言通过: JSON中存在键 msg
+2025-08-08 15:18:17,057 - common.logger - INFO - 断言通过: 用户名或者密码错误 == 用户名或者密码错误
+2025-08-08 15:18:17,063 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,067 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,068 - common.logger - INFO - 断言通过: 1 == 1
+2025-08-08 15:18:17,068 - common.logger - INFO - 断言通过: JSON中存在键 msg
+2025-08-08 15:18:17,068 - common.logger - INFO - 断言通过: 用户名或者密码错误 == 用户名或者密码错误
+2025-08-08 15:18:17,072 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,080 - common.logger - INFO - 请求: GET http://127.0.0.1/api/mgr/customers
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: JSON中存在键 retlist
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: JSON中存在键 total
+2025-08-08 15:18:17,091 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,100 - common.logger - INFO - 请求: GET http://127.0.0.1/api/mgr/customers
+2025-08-08 15:18:17,106 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,106 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-08 15:18:17,106 - common.logger - INFO - 断言通过: JSON中存在键 retlist
+2025-08-08 15:18:17,106 - common.logger - INFO - 断言通过: JSON中存在键 total
+2025-08-08 15:18:17,110 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,119 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/customers
+2025-08-08 15:18:17,128 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,128 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-08 15:18:17,132 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,141 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/customers
+2025-08-08 15:18:17,149 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,149 - common.logger - INFO - 断言通过: 0 == 0

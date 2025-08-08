@@ -1,0 +1,6 @@
+2025-08-08 15:18:17,072 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,080 - common.logger - INFO - 请求: GET http://127.0.0.1/api/mgr/customers
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: JSON中存在键 retlist
+2025-08-08 15:18:17,086 - common.logger - INFO - 断言通过: JSON中存在键 total

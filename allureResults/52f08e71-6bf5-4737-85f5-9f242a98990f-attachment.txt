@@ -1,0 +1,3 @@
+2025-08-08 15:18:16,996 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-08 15:18:17,021 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-08 15:18:17,021 - common.logger - INFO - 断言通过: 0 == 0

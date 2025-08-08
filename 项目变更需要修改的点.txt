@@ -1,0 +1,51 @@
+## 如果接口自动化测试项目变更，框架修改点总结：
+
+一、需要修改的文件
+
+1. 环境配置文件
+configs/env_dev.yaml 和 configs/env_prod.yaml
+修改 base_url 为新项目的API基础地址
+根据需要调整 timeout 和 log_level
+
+2. 测试数据文件
+data/test_data.yaml
+替换为新项目的测试用例数据
+根据新项目的接口需求调整数据结构
+
+3. API封装层
+pages/base_api.py (可能需要)
+根据新项目的认证方式调整基础API类
+pages/user_api.py
+重命名为符合新项目业务的名称(如 project_api.py)
+重新实现具体的API方法以匹配新项目的接口
+
+二、需要新增的文件
+
+1. API封装文件
+根据新项目的业务模块创建对应的API封装文件
+例如: customer_api.py, order_api.py 等
+
+2. 测试用例文件
+在 testcases/ 目录下创建新的测试文件
+例如: test_customer.py, test_order.py 等
+
+3. 配置文件(如需要)
+根据新项目需求可能需要添加额外的配置文件
+
+三、需要更新的引用
+
+1. 模块导入路径
+更新 pages/init.py 中的导入语句
+更新 testcases/init.py 中的导入语句
+
+2. conftest.py 中的登录逻辑
+修改 login_session fixture 中的登录凭证
+调整登录接口调用方式以适配新项目
+
+(四、可选的优化)
+1. 增加更多的fixture
+根据新项目需求添加特定的fixture
+例如: 特定模块的API实例、特殊认证方式等
+2. 扩展断言工具
+在 common/assert_util.py 中添加项目特定的断言方法
+这样的框架设计具有良好的可扩展性和复用性，只需要替换业务相关的部分就可以适配不同的项目。

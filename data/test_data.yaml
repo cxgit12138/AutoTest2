@@ -1,0 +1,46 @@
+#测试数据文件
+login_tests:
+  - username: "byhy"
+    password: "88888888"
+    expected_ret: 0
+    description: "正确用户名密码登录"
+  - username: invalid
+    password: wrong_pwd
+    expected_ret: 1
+    expected_msg: "用户名或者密码错误"
+    description: "无效用户名密码登录"
+  - username: ""
+    password: ""
+    expected_ret: 1
+    expected_msg: "用户名或者密码错误"
+    description: "空用户名密码登录"
+
+#get_user_info_tests:
+#  - user_id: 1
+#    expected_name: Admin User
+#  - user_id: 2
+#    expected_name: Test User
+
+list_customers_tests:
+  - pagesize: 10
+    pagenum: 1
+    keywords: ""
+    expected_ret: 0
+    description: "第一页客户列表"
+  - pagesize: 5
+    pagenum: 2
+    keywords: "北京"
+    expected_ret: 0
+    description: "搜索北京客户第二页"
+
+add_customer_tests:
+  - name: "武汉市桥西医院"
+    phonenumber: "13345679934"
+    address: "武汉市桥西医院北路"
+    expected_ret: 0
+    description: "添加武汉市桥西医院"
+  - name: "测试客户"
+    phonenumber: "13800138000"
+    address: "测试地址"
+    expected_ret: 0
+    description: "添加测试客户"

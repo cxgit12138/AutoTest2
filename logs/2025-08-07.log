@@ -1,0 +1,33 @@
+2025-08-07 12:00:40,700 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-07 12:00:40,736 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-07 12:00:40,737 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-07 12:00:40,742 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-07 12:00:40,747 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-07 12:00:40,748 - common.logger - INFO - 断言通过: 1 == 1
+2025-08-07 12:00:40,748 - common.logger - INFO - 断言通过: JSON中存在键 msg
+2025-08-07 12:00:40,748 - common.logger - INFO - 断言通过: 用户名或者密码错误 == 用户名或者密码错误
+2025-08-07 12:00:40,753 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-07 12:00:40,758 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-07 12:00:40,759 - common.logger - INFO - 断言通过: 1 == 1
+2025-08-07 12:00:40,759 - common.logger - INFO - 断言通过: JSON中存在键 msg
+2025-08-07 12:00:40,759 - common.logger - INFO - 断言通过: 用户名或者密码错误 == 用户名或者密码错误
+2025-08-07 12:00:40,764 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-07 12:00:40,774 - common.logger - INFO - 请求: GET http://127.0.0.1/api/mgr/customers
+2025-08-07 12:00:40,780 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-07 12:00:40,780 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-07 12:00:40,781 - common.logger - INFO - 断言通过: JSON中存在键 retlist
+2025-08-07 12:00:40,781 - common.logger - INFO - 断言通过: JSON中存在键 total
+2025-08-07 12:00:40,787 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-07 12:00:40,797 - common.logger - INFO - 请求: GET http://127.0.0.1/api/mgr/customers
+2025-08-07 12:00:40,803 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-07 12:00:40,803 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-07 12:00:40,803 - common.logger - INFO - 断言通过: JSON中存在键 retlist
+2025-08-07 12:00:40,803 - common.logger - INFO - 断言通过: JSON中存在键 total
+2025-08-07 12:00:40,808 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-07 12:00:40,817 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/customers
+2025-08-07 12:00:40,826 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-07 12:00:40,826 - common.logger - INFO - 断言通过: 0 == 0
+2025-08-07 12:00:40,831 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/signin
+2025-08-07 12:00:40,841 - common.logger - INFO - 请求: POST http://127.0.0.1/api/mgr/customers
+2025-08-07 12:00:40,849 - common.logger - INFO - 断言通过: JSON中存在键 ret
+2025-08-07 12:00:40,849 - common.logger - INFO - 断言通过: 0 == 0
